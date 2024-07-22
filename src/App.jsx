@@ -5,9 +5,14 @@ import Header from './components/header/Header'
 function App() {
   const [theme,setTheme] = useState(false)
   return (
+    <>
     <div className={!theme ? `${cls.App}` : `${cls.durck}`}>
      <Header theme={theme} setTheme={setTheme}/>
     </div>
+    <div className={!theme ? `${cls.App}` : `${cls.durck}`}>
+    <Header theme={theme} setTheme={setTheme}/>
+   </div>
+   </>
   )
 }
 
