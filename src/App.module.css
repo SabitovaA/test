@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    max-width: 1440px;
+    height: 100%;
+}
+.durck{
+    background-color: #111;
+    max-width: 1440px;
+    height: 100%;
+}
